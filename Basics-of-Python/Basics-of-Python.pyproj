@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f78b4c54-4ee2-4640-9691-91b36dd2d27f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Program-Files\Sets.py</StartupFile>
+    <StartupFile>Program-Files\Dictionaries.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Program-Files\DataTypes-and-Numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program-Files\Dictionaries.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Program-Files\Lists.py">
