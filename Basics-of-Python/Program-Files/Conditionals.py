@@ -40,3 +40,19 @@ else:
 if(10>6):
     pass
 '''
+
+# match statements, just like switch
+'''
+dice_value= 17 # 20 sided die
+match dice_value:
+    case 1|2|3|4|5:
+        print('Low Value')
+    case 6|7|8|9|10:
+        print('Lower Middle Value')
+    case 11|12|13|14|15:
+        print("Higher Middle Value")
+    case 16|17|18|19|20:
+        print("Higher Value")
+    case _:
+        print("Invalid Value")
+'''
