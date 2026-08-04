@@ -176,3 +176,34 @@ def Fibonacci(n):
         return Fibonacci(n-1)+Fibonacci(n-2)
 print(Fibonacci(7))
 '''
+
+# Generator Functions (Allows you to iterate over data without storing it in memory)
+'''
+# When yield is encountered, the function's state is saved, and the value is returned. It's like a pause button.
+def counting(n):
+    count=1
+    while count<=n:
+        yield count
+        count+=1
+for i in counting(10000):
+    print(i)
+
+# Manual Iteration using next()
+def my_Generator(n):
+    for i in range(n): yield i
+f=my_Generator(100)
+print(next(f))
+print(next(f))
+print(next(f))
+print(next(f))
+print(next(f))
+'''
+
+# Generator Expressions
+'''
+l1=[x for x in range(10)] # List comprehension
+print(l1)
+g1=(x*x for x in range(10)) # Generator Expression
+print(g1)
+print(list(g1))
+'''
