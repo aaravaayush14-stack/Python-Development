@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f78b4c54-4ee2-4640-9691-91b36dd2d27f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Program-Files\Functions.py</StartupFile>
+    <StartupFile>Program-Files\Boring_Stuff.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Program-Files\Bool-and-Operators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program-Files\Boring_Stuff.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Program-Files\Conditionals.py">
