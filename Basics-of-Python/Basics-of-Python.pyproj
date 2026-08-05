@@ -55,6 +55,9 @@
     <Compile Include="Program-Files\Strings.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Program-Files\Test_Module.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Program-Files\Tuple.py" />
     <Compile Include="Program-Files\Variables-Usage.py">
       <SubType>Code</SubType>
