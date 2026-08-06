@@ -53,3 +53,13 @@ print(math.perm(7,5))
 print(math.prod([1,2,3,4,5,6]))
 # And many more functions..........
 '''
+
+# Random module
+'''
+import random
+print(random.randrange(1,13,2)) # 13 excluded
+print(random.randint(1,5)) # 5 included
+print(random.choice(['a','b','c','d','e']))
+print(random.random())
+# Other methods will be covered with time
+'''
