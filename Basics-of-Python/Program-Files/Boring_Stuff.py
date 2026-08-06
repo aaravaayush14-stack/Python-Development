@@ -31,3 +31,25 @@ print(directory)
 from Test_Module import testModule as tM
 tM()
 '''
+
+# Math module
+'''
+import math
+print(max(2,3,4))
+print(min(2,3,4))
+print(abs(-98))
+print(pow(3,4))
+print(math.sqrt(98))
+print(math.floor(1.4))
+print(math.ceil(1.4))
+print(math.pi)
+print(math.gcd(96,60))
+print(math.factorial(7))
+print(math.sin(math.pi/6))
+print(math.cos(math.radians(0)))
+print(math.degrees(math.pi/2))
+print(math.exp(2))
+print(math.perm(7,5))
+print(math.prod([1,2,3,4,5,6]))
+# And many more functions..........
+'''
