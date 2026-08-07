@@ -26,3 +26,15 @@ for i in range(0,3):
     for j in range(0,4): sum_of_elemets+=a3[i,j] # Same as a3[i][j]
 print(sum_of_elemets)
 '''
+
+# Slicing (array[start:stop:jump])
+'''
+matrix_A=np.array([[1,2,3,4],
+                   [5,6,7,8],
+                   [9,10,11,12],
+                   [13,14,15,16]])
+print(matrix_A[0:2])
+print(matrix_A[:,0]) # Select all rows' 0 index element
+print(matrix_A[0:2:1,0:2:1]) # Select rows 0 and 1, and select columns 0 and 1
+print(matrix_A[:,2::-1])
+'''
