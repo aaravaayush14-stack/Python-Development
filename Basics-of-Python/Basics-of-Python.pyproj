@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f78b4c54-4ee2-4640-9691-91b36dd2d27f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BasicsStuff\Boring_Stuff.py</StartupFile>
+    <StartupFile>NumPy\Basics-of-NumPy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="BasicsStuff\Tuple.py" />
     <Compile Include="BasicsStuff\Variables-Usage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumPy\Basics-of-NumPy.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
