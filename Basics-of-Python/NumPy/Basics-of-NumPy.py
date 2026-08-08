@@ -38,3 +38,12 @@ print(matrix_A[:,0]) # Select all rows' 0 index element
 print(matrix_A[0:2:1,0:2:1]) # Select rows 0 and 1, and select columns 0 and 1
 print(matrix_A[:,2::-1])
 '''
+
+# Scalar Arithmetic
+'''
+ar=np.array([1,2,3,4])
+print(ar*2)
+print(ar+2)
+print(ar/2)
+print(ar**3)
+'''
