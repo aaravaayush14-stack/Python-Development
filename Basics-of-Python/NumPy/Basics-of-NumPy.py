@@ -70,3 +70,25 @@ print(array1+array2)
 print(array1*array2)
 print((array2**array1).tolist()) # .tolist() convert array to list
 '''
+
+# Comparison Operators
+'''
+scores=np.array([91,55,100,73,82,64])
+print((scores>=75).tolist())
+scores[scores<60]=0 # If condition satisfied replace those elements with x
+print(scores)
+'''
+
+# Broadcasting (Operations on diff. shapes by virtually expanding dimensions to that of larger array)
+# Broadcasting occurs if no. of col,/rows match or is 1
+'''
+eg_array1=np.array([[0,0,0],
+                   [10,10,10],
+                   [20,20,20],
+                   [30,30,30]])
+eg_array2=np.array([1,2,3]) # This array gets stretched to upper array's size
+print(eg_array1+eg_array2)
+eg1=np.array([1,2,3,4])
+eg2=np.array([[1],[2],[3],[4]])
+print(eg1*eg2) # Columns are read first and virtually expanded, then rows for 2D Arrays
+'''
