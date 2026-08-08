@@ -62,3 +62,11 @@ radii=np.array([1,2,3])
 print(np.pi*radii**2)
 '''
 
+# Element-wise Arithmetic
+'''
+array1=np.array([1,2,3])
+array2=np.array([4,5,6])
+print(array1+array2)
+print(array1*array2)
+print((array2**array1).tolist()) # .tolist() convert array to list
+'''
