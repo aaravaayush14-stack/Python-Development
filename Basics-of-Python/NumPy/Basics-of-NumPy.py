@@ -47,3 +47,18 @@ print(ar+2)
 print(ar/2)
 print(ar**3)
 '''
+
+# Vector Arithmetic
+'''
+ar2=np.array([1,2,3,4,5])
+ar3=np.array([1.2,3.99,8.5,7.5])
+print(np.sqrt(ar2))
+print(np.round(ar3))
+print(np.floor(ar3)) # Similarly can use ceil function
+print(np.pi)
+
+# Exercise
+radii=np.array([1,2,3])
+print(np.pi*radii**2)
+'''
+
